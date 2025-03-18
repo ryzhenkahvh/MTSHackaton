@@ -10,4 +10,10 @@
     <color name="bottomNavSelected">#000000</color>
     <color name="bottomNavUnselected">#C7C7C7</color>
     <color name="navBackground">#565656</color>
+
+    <color name="deviceBackground">#1F1F1F</color>
+    <color name="temperatureColor">#FF5722</color>
+    <color name="humidityColor">#2196F3</color>
+    <color name="lampColor">#FFC107</color>
+    <color name="acColor">#4CAF50</color>
 </resources>
