@@ -30,7 +30,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_bell"
-                android:tint="@color/colorWhite"/>
+                android:textColor="@color/colorWhite"/>
 
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="wrap_content"
@@ -66,14 +66,18 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/ic_search"
-                    android:tint="@color/colorWhite"/>
+                    android:textColor="@color/colorWhite"/>
 
-                <TextView
-                    android:layout_width="match_parent"
+                <EditText
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_marginStart="8dp"
-                    android:text="Поиск"
-                    android:textColor="#808080"/>
+                    android:hint="Поиск"
+                    android:textColorHint="@color/colorWhite"
+                    android:textColor="@color/colorWhite">
+                </EditText>
+
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 

@@ -11,34 +11,38 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-    <!-- Поиск -->
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:cardCornerRadius="12dp"
-        app:cardBackgroundColor="#1F1F1F">
-
-        <LinearLayout
+        <!-- Поиск -->
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:gravity="center_vertical">
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#1F1F1F">
 
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ic_search"
-                android:tint="@color/colorWhite"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:text="Поиск"
-                android:textColor="#808080"/>
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
+                android:padding="12dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_search"
+                    app:tint="@color/colorWhite"/>
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:hint="Поиск"
+                    android:textColorHint="@color/colorWhite"
+                    android:textColor="@color/colorWhite">
+                </EditText>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
 

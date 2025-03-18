@@ -3,13 +3,13 @@
     <item
         android:id="@+id/nav_first"
         android:icon="@drawable/ic_home"
-        android:title="Мой дом"/>
+        android:title="@string/nav_first"/>
     <item
         android:id="@+id/nav_second"
         android:icon="@drawable/ic_management"
-        android:title="Управление домом"/>
+        android:title="@string/nav_second"/>
     <item
         android:id="@+id/nav_third"
         android:icon="@drawable/ic_profile"
-        android:title="Профиль"/>
+        android:title="@string/nav_third"/>
 </menu>
